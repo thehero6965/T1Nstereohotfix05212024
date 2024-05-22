@@ -13,7 +13,7 @@
       //best stereo on cord 
  * @name T1Nstereo
  * @author tinguy1
- * @version 1.0.9
+ * @version 1.0.9.2
  * @authorLink https://github.com/tinguy1
  * @invite 9bpbS4kjdf
  * @source https://github.com/tinguy1/T1Nstereo
@@ -80,7 +80,7 @@ module.exports = (() => {
   const config = {
     info: {
       name: 'T1Nstereo', //dont try to change the name of the plugin or it wont work
-      version: '1.0.9',
+      version: '1.0.9.2',
       description:
         'disable echo cancellation, noise reduction, noise suppression, Diagnostic audio recording, and Debug logging for this plugin to work, open plugin settings to see configurable settings.',
       authors: [
@@ -275,8 +275,8 @@ module.exports = (() => {
         id: 'consolelog',
         name: 'Console logging',
         note: '(Only turn this on if you know what its for/ debugging',
-        value: true,
-        disabled: false,
+        value: false,
+        disabled: true,
       }, //made by tinguy1 on github dont steal pussy 
     ]
   },
@@ -358,7 +358,7 @@ module.exports = (() => {
         note: 'change the toast that shows when joining a voice channel',
         value: '',
         placeholder: '',
-        disabled: true,
+        disabled: false,
       }, //made by tinguy1 on github dont steal pussy
     ]
   },
