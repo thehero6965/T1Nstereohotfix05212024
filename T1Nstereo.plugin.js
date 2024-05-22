@@ -97,7 +97,7 @@ module.exports = (() => {
 		title: 'fucked with code',
 			items: [
           'got it working, voila',
-          ' edited 3 lines of code'
+          'edited 3 lines of code'
 			],
 		},
       {
