@@ -93,6 +93,13 @@ module.exports = (() => {
       github_raw: 'https://raw.githubusercontent.com/tinguy1/T1Nstereo/main/T1Nstereo.plugin.js'
     },
     changelog: [
+		{
+		title: 'fucked with code',
+			items: [
+          'got it working, voila',
+          ' edited 3 lines of code'
+			],
+		},
       {
         title: 'Release Changes',
         items: [
