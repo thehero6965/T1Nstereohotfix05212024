@@ -275,8 +275,8 @@ module.exports = (() => {
         id: 'consolelog',
         name: 'Console logging',
         note: '(Only turn this on if you know what its for/ debugging',
-        value: false,
-        disabled: true,
+        value: true,
+        disabled: false,
       }, //made by tinguy1 on github dont steal pussy 
     ]
   },
@@ -356,9 +356,9 @@ module.exports = (() => {
         id: 'vcjointoast',
         name: 'Voice channel join Toast',
         note: 'change the toast that shows when joining a voice channel',
-        value: 'I love tinguy1 on github he is my daddy and i love him so much + T1Nstereo is the best plugin ever made',
-        placeholder: 'I love tinguy1 on github he is my daddy and i love him so much + T1Nstereo is the best plugin ever made',
-        //disabled: true,
+        value: '',
+        placeholder: '',
+        disabled: true,
       }, //made by tinguy1 on github dont steal pussy
     ]
   },
@@ -738,9 +738,9 @@ module.exports = (() => {
               if (tin.encodingVideoBitRate) {
                 tin.encodingVideoBitRate = videobitrate
               } //made by tinguy1 on github dont steal pussy
-              tin3.bitrateMin = streambitrate
-              tin3.bitrateMax = streambitrate
-              tin3.bitrateTarget = streambitrate
+              //tin3.bitrateMin = streambitrate
+              //tin3.bitrateMax = streambitrate
+              //tin3.bitrateTarget = streambitrate
               //made by tinguy1 on github dont steal pussy
               if (tin.streamParameters) {
                 tin.streamParameters[0].maxBitrate = streambitrate
